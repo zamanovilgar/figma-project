@@ -81,3 +81,74 @@ body {
   padding: 20px, 24px, 20px, 24px;
   border: none;
 }
+main {
+  display: flex;
+}
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 189px;
+}
+.sec1 h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.sec1 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -2%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.sec1-card-folder {
+  display: flex;
+  flex-direction: row;
+  padding: 0 56px;
+}
+
+/* .sec1-card-folder div { */
+.sec1-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  width: 427px;
+  height: 340px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.sec1-card img {
+  width: 104px;
+  height: 88px;
+  padding-top: 64px;
+  padding-left: 162px;
+  padding-bottom: 24px;
+}
+.sec1-p1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-left: 114px;
+  padding-right: 114px;
+  width: 270px;
+  height: 32px;
+}
+.sec1-p2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  width: 379px;
+  height: 52px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 64px;
+}
