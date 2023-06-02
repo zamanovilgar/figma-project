@@ -82,33 +82,48 @@ body {
   border: none;
 }
 main {
-  display: flex;
+  /* display: flex; */
 }
 .sec1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 189px;
+  /* flex-wrap: wrap; */
 }
 .sec1 h2 {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
   text-align: center;
+  /* margin-bottom: 24px; */
   padding-bottom: 24px;
+  width: 895px;
+  height: 64px;
+  /* padding-left: 272px; */
+  /* padding-right: 272px; */
+  /* margin-left: 272px; */
+  /* margin-right: 272px; */
 }
-.sec1 p {
+.sec1-p {
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: -2%;
   text-align: center;
+  /* margin-bottom: 48px; */
   padding-bottom: 48px;
+  width: 895px;
+  height: 52px;
 }
 .sec1-card-folder {
   display: flex;
   flex-direction: row;
-  padding: 0 56px;
+  gap: 24px;
+  /* margin-left: 56px; */
+  /* margin-right: 56px; */
+  padding-left: 56px;
+  padding-right: 56px;
 }
 
 /* .sec1-card-folder div { */
@@ -116,28 +131,36 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 24px;
   width: 427px;
   height: 340px;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  /* margin: 0; */
+  /* left: 0; */
 }
 .sec1-card img {
+  /* width: 104px; */
   width: 104px;
   height: 88px;
-  padding-top: 64px;
-  padding-left: 162px;
-  padding-bottom: 24px;
+  margin-top: 64px;
+  margin-left: 162px;
+  margin-bottom: 24px;
+  /* padding-top: 64px; */
+  /* padding-left: 162px; */
+  /* padding-bottom: 24px; */
 }
 .sec1-p1 {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   text-align: center;
-  padding-bottom: 16px;
-  padding-left: 114px;
-  padding-right: 114px;
+  margin-bottom: 16px;
+  margin-left: 114px;
+  margin-right: 114px;
+  /* padding-bottom: 16px; */
+  /* padding-left: 114px; */
+  /* padding-right: 114px; */
   width: 270px;
   height: 32px;
 }
@@ -148,7 +171,10 @@ main {
   text-align: center;
   width: 379px;
   height: 52px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 64px;
+  /* padding-left: 24px; */
+  /* padding-right: 24px; */
+  /* padding-bottom: 64px; */
 }
