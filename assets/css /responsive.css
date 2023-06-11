@@ -1,4 +1,15 @@
 /* RESPONSIVE */
 /* TABLET&MOBILE */
 @media screen and (max-width: 800px) {
+  .hamburger-btn {
+    display: block;
+  }
+  .navbar,
+  h1 {
+    display: none;
+  }
+  .header-bottom {
+    /* flex-direction: column-reverse; */
+    /* padding: 0 18px 0; */
+  }
 }
