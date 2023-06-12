@@ -9,7 +9,30 @@
     display: none;
   }
   .header-bottom {
-    /* flex-direction: column-reverse; */
-    /* padding: 0 18px 0; */
+    flex-direction: column-reverse;
+  }
+  .header-top {
+    width: 100%;
+  }
+  .img-about {
+    width: 70%;
+    /* height: 160px; */
+  }
+  .header-btm-1 {
+    text-align: center;
+  }
+  .sec1-card-folder {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec1-p {
+    width: 100%;
+  }
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5,
+  footer {
+    display: none;
   }
 }
