@@ -71,7 +71,7 @@ body {
   height: 64px;
 }
 .img-about {
-  /* width: 100%; */
+  width: 100%;
 }
 .btn-header {
   color: #fff;
@@ -118,6 +118,9 @@ body {
   /* padding-bottom: 48px; */
   width: 895px;
   height: 52px;
+}
+.sec1-p-p {
+  display: none;
 }
 .sec1-card-folder {
   display: flex;
